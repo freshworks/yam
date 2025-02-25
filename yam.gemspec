@@ -24,7 +24,7 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name             = 'yam'
-  s.version          = Yammer::Version
+  s.version          = Yammer::Version.to_s
 
   s.date             = Date.today.to_s
   s.summary          = "Yammer API Client"
@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.authors          = ["Kevin Mutyaba"]
   s.email            = %q{kmutyaba@yammer-inc.com}
   s.homepage         = 'http://yammer.github.io/yam'
-  s.rubygems_version = Yammer::Version
+  s.rubygems_version = Yammer::Version.to_s
   s.files            = `git ls-files`.split("\n")
   s.require_paths    = ['lib']
 
